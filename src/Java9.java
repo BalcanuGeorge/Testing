@@ -47,7 +47,7 @@ public class forlooop {
         //6.
              Scanner afisare2 = new Scanner(System.in);
                 System.out.println("Introduceti un numar:");
-                int numar = afisare2.nextInt();
+               int numar = afisare2.nextInt();
                 if(numar%2==0){
                     for (int i = 1; i < 5; i++) {
                         System.out.println(numar);
@@ -63,7 +63,7 @@ public class forlooop {
               System.out.println("Introduceti un text:");
               String text = scannerText.nextLine();
               System.out.println("Introduceti un numar:");
-              int numar = scannerInt.nextInt();
+               int numar = scannerInt.nextInt();
 
                 if(numar<5){
                     for (int i = 1; i <5 ; i++) {
@@ -75,7 +75,54 @@ public class forlooop {
                 System.out.print(text + " ");
 
             }
-        }            
+        }     
+                    
+        //8.
+               int suma = 0;
+                   for (int i = 0; i <=50 ; i++) {
+                if(i%2 !=0){
+                suma+=i;
+                }
+                System.out.println("Suma numerelor impare cuprinse intre 0 si 50 este " + suma);     
+                   }         
+              }              
+                       
+         //9.
+               int suma = 0;
+                   for (int i = 1; i <=10 ; i++) {
+                suma+=i;
+                }
+               System.out.println("Suma numerelor cuprinse intre 1 si 10 este " + suma);
+                    }
+               }         
+        
+        
+          //10.
+               int suma = 0;
+               int numere =0;
+                   for (int i = 1; i <=10 ; i++) {
+                suma+=i;
+                numere ++;
+                }
+               int mediaAritmetica = suma/numere;
+               System.out.println("Media aritmetica a numerelor cuprinse intre este 1 si 10 este " + mediaAritmetica);
+                    }
+
+               }
+
+          //11.
+               int suma = 0;
+               int produs =1;
+                   for (int i = 1; i <=3 ; i++) {
+                suma+=i;
+                produs *=i;
+                }
+
+               System.out.println("Produsul numerelor cuprinse intre este 1 si 3 este " + produs);
+                    }
+
+                }
+
 
 
 
