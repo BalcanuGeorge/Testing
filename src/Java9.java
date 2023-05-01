@@ -56,6 +56,26 @@ public class forlooop {
                             System.out.println(numar);
                         }
                     }
+                    
+        //7.
+              Scanner scannerText = new Scanner(System.in);
+              Scanner scannerInt = new Scanner(System.in);
+              System.out.println("Introduceti un text:");
+              String text = scannerText.nextLine();
+              System.out.println("Introduceti un numar:");
+              int numar = scannerInt.nextInt();
+
+                if(numar<5){
+                    for (int i = 1; i <5 ; i++) {
+                System.out.println(text);
+
+                   }
+                   }else{
+                    for (int i = 1; i<5 ; i++) {
+                System.out.print(text + " ");
+
+            }
+        }            
 
 
 
