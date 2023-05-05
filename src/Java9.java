@@ -126,3 +126,57 @@ public class forlooop {
 
 
 
+          //INSTRUCTIUNI REPETITIVE
+          //WHILE
+          //1.
+               String afisare1= "Romania";
+               int counter = 0;
+
+               while(counter<10){
+               System.out.println(afisare1);
+               counter++;
+                    }
+                }
+              }
+           
+          //2.
+               Scanner afisare2 = new Scanner(System.in);
+               while (true){
+               System.out.println("Introduceti un numar");
+               int numar= afisare2.nextInt();
+               if(numar>10){
+               System.out.println("Numarul este mai mare decat 10");
+                break;
+               }else{
+               System.out.println("Numarul este mai mic decat 10");
+                      }
+                  }
+
+                } 
+
+          //3.
+               int counter = 0;
+               int suma =1;
+               while (counter<=5){
+               suma+=counter;
+               counter++;
+
+                    }
+               System.out.println("Suma primelor 5 numere este " + suma);
+                        }
+               }
+
+
+          //4.
+               Scanner afisare3 =new Scanner(System.in);
+               int counter =1;
+               int produs =1;
+               while (counter<=4){
+               System.out.println("Introduceti un numar:");
+               int numarIntrodus = afisare3.nextInt();
+               produs*=numarIntrodus;
+               counter++;
+                       }
+               System.out.println("Produsul numerelor introduse este " +produs);
+                     }
+               }
