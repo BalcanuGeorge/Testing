@@ -101,3 +101,31 @@ public class untitled3 {
 
     }
 }
+
+
+      //4.
+        int [] numereNaturale = new int[10];
+        numereNaturale[0]=1;
+        numereNaturale[1]=14;
+        numereNaturale[2]=20;
+        numereNaturale[3]=100;
+        numereNaturale[4]=66;
+        numereNaturale[5]=87;
+        numereNaturale[6]=71;
+        numereNaturale[7]=15;
+        numereNaturale[8]=45;
+        numereNaturale[9]=10;
+
+        Arrays.sort(numereNaturale);
+
+        for (int i = 0; i < numereNaturale.length; i++) {
+            System.out.print(numereNaturale[i]+ " ");
+
+        }
+        System.out.println();
+
+        for (int i = numereNaturale.length-1; i>=0 ; i--) {
+            System.out.print(numereNaturale[i]+ " ");
+        }
+    }
+}
