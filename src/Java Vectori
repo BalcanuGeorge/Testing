@@ -29,3 +29,35 @@ public class untitled3 {
 
     }
 }
+        //2.
+        String[] persoane = new String[7];
+        persoane [0] = "ION";
+        persoane [1] ="GEORGE";
+        persoane [2] ="MARIUS";
+        persoane [3] ="PETRICA";
+        persoane [4] ="PAUL";
+        persoane [5] ="RAZVAN";
+        persoane [6] ="FLORIN";
+
+        for (int i = 0; i < persoane.length ; i++) {
+            System.out.print(persoane[i] + " ");
+
+        }
+        System.out.println();
+        for(String nume : persoane){
+            System.out.print(nume + " ");
+        }
+        System.out.println();
+
+        System.out.println(persoane[4]);
+        System.out.println(persoane[0]);
+        System.out.println();
+
+        for (int i = persoane.length;-1 i>=0 ; i--) {
+            System.out.print(persoane[i] + " ");
+
+        }
+
+
+    }
+} 
