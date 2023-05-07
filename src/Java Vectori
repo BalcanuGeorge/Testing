@@ -61,3 +61,43 @@ public class untitled3 {
 
     }
 } 
+        //3.
+       int [] numereNaturale = new int[10];
+        numereNaturale[0]=1;
+        numereNaturale[1]=2;
+        numereNaturale[2]=3;
+        numereNaturale[3]=4;
+        numereNaturale[4]=5;
+        numereNaturale[5]=6;
+        numereNaturale[6]=7;
+        numereNaturale[7]=8;
+        numereNaturale[8]=9;
+        numereNaturale[9]=10;
+
+        for (int i = 0; i < numereNaturale.length; i++) {
+            System.out.println(numereNaturale[i] + " ");
+
+        }
+        System.out.println();
+
+        for(int numere:numereNaturale){
+            System.out.print(numere + " ");
+        }
+        System.out.println();
+
+        for (int i = numereNaturale.length-1; i>=0 ; i--) {
+            System.out.print(numereNaturale[i] + " ");
+        }
+        System.out.println();
+
+        System.out.print(numereNaturale[0]);
+        System.out.print(numereNaturale[6]);
+        System.out.print(numereNaturale[8]);
+        System.out.print(numereNaturale[2]);
+        System.out.print(numereNaturale[6]);
+
+
+
+
+    }
+}
