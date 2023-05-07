@@ -129,3 +129,19 @@ public class untitled3 {
         }
     }
 }
+
+
+     //5.
+        String [] tariEuropa = new String[5];
+        tariEuropa[0] ="ROMANIA";
+        tariEuropa[1] ="GERMANIA";
+        tariEuropa[2] ="BELGIA";
+        tariEuropa[3] ="MONACO";
+        tariEuropa[4] ="NORVEGIA";
+
+        Arrays.sort(tariEuropa);
+        System.out.println(tariEuropa[tariEuropa.length-1]);
+        System.out.println(tariEuropa[tariEuropa.length-2]);
+    }
+        
+}
