@@ -1,1 +1,25 @@
 
+public class untitled3 {
+
+    public static void main(String[] args) {
+
+        //VECTORI
+        //1.
+        String[] vectorMasini = new String[4];
+        vectorMasini[0]="AUDI";
+        vectorMasini[1]="BMW";
+        vectorMasini[2]="MERCEDES";
+        vectorMasini[3]="PORSCHE";
+
+        for (int i = 0; i < vectorMasini.length; i++) {
+            System.out.print(vectorMasini[i] + " ");
+
+        }
+        System.out.println();
+
+        for (String masina : vectorMasini){
+            System.out.print(masina + " ");
+        }
+
+    }
+}
