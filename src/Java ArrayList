@@ -114,3 +114,18 @@ public class untitled5 {
         }
     }
 }
+
+
+        //6.
+        ArrayList<String> cuvinte = new ArrayList<>();
+        Scanner scan = new Scanner(System.in);
+        while(true){
+            System.out.println("Introduceti un cuvant:");
+            String cuvant = scan.nextLine();
+            if(cuvant.equals("Moneda")){
+                break;
+            }
+
+            }
+        }
+    }
