@@ -25,3 +25,31 @@ public class untitled5 {
         }
     }
 }
+      
+        //2.
+        ArrayList<Integer> numere = new ArrayList<>();
+        numere.add(9);
+        numere.add(1);
+        numere.add(7);
+        numere.add(3);
+        numere.add(5);
+
+        for (int numar : numere){
+            System.out.print(numar + " ");
+        }
+        System.out.println();
+
+        Collections.sort(numere);
+        for (int numar : numere){
+            System.out.print(numar + " ");
+        }
+        System.out.println();
+        System.out.println();
+
+        ArrayList<Integer> numere1 = new ArrayList<>(Arrays.asList(2,4));
+        for (int numar : numere1){
+            System.out.print(numar + " ");
+        }
+
+    }
+}
