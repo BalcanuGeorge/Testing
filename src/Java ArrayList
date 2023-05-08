@@ -95,3 +95,22 @@ public class untitled5 {
         }
     }
 }
+
+
+
+        //5.
+        ArrayList<Integer> valori = new ArrayList<>();
+        valori.add(2);
+        valori.add(4);
+        valori.add(6);
+        valori.add(8);
+        valori.add(10);
+
+        ArrayList<Integer> valori2 = new ArrayList<>(Arrays.asList(1,3,5,7,9));
+
+        valori.addAll(valori2);
+        for (int valoare : valori){
+            System.out.println(valoare+ " ");
+        }
+    }
+}
