@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class untitled5 {
+
+    public static void main(String[] args) {
+        //ARRAY LIST
+        //1.
+        ArrayList<String> orase = new ArrayList<>();
+        orase.add("Bucuresti");
+        orase.add("Brugges");
+        orase.add("Braga");
+
+        for (String oras: orase){
+            System.out.print(oras + " ");
+        }
+        orase.remove(2);
+        System.out.println();
+        for (String oras: orase){
+            System.out.print(oras + " ");
+        }
+        System.out.println();
+        orase.add(1,"Belgrad");
+        for (String oras: orase){
+            System.out.print(oras + " ");
+        }
+    }
+}
