@@ -1,1 +1,30 @@
+import java.util.Arrays;
 
+public class untitled4 {
+    public static void main(String[] args) {
+
+        //Bubble sort
+        //1.
+        int [] numere ={8,6,5,3,2,1,9,10,4,7};
+        for (int i = 0; i < numere.length ; i++) {
+            for (int j = i+1; j < numere.length ; j++) {
+                if(numere[i]>numere[j]){
+                    int temp = numere[i];
+                    numere[i]=numere[j];
+                    numere[j]= temp;
+                }
+
+            }
+
+        }
+        System.out.println(Arrays.toString(numere));
+    }
+
+}
+        //2.
+        int [] numere ={8,6,5,3,2,1,9,10,4,7};
+        Arrays.sort(numere);
+        System.out.println(Arrays.toString(numere));
+    }
+
+}   
